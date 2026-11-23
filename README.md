@@ -1,11 +1,12 @@
 # Multiverse RAG
 
+![Multiverse portal](docs/portal.jpg)
+
 Chat with any PDF. Upload a file, and the chatbot answers **only from that PDF**, with page numbers for every answer. If the answer is not in your PDF, it says so.
 
 A short cinematic scroll intro (a multiverse portal image sequence) explains how the chatbot works, step by step. Then you land in the chatbot itself.
 
-![Multiverse RAG screenshot](docs/screenshot.png)
-<!-- Add a screenshot at docs/screenshot.png -->
+![Multiverse RAG](docs/screenshot-hero.png)
 
 ## Features
 
@@ -66,7 +67,7 @@ Open http://localhost:3000, upload a PDF, and start chatting.
 ### Terminal-only version
 
 ```bash
-uv run python ingest.py     # builds the database from my_notes.pdf
+uv run python ingest.py     # builds the database from my_notes.pdf (put your own PDF in this folder first)
 uv run python chatbot.py    # ask questions in the terminal, type "exit" to quit
 ```
 
